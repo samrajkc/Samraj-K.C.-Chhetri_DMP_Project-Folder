@@ -1,0 +1,6 @@
+Breadcrumbs 'Parallel'
+ - Radiosity
+ - LumenSceneLighting
+ - Scene
+ - FRDGBuilder::Execute
+ - Frame 125204

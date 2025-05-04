@@ -1,0 +1,79 @@
+{
+    "version": 1,
+    "settings": {
+        "output": {
+            "file_name_format": "{shot}_{frame}.{ext}",
+            "directory_path": "C:/Your/Render/Output/Directory",
+            "resolution": {
+                "x": 2048,
+                "y": 1080
+            },
+            "output_format": "png",
+            "override_output_settings": true,
+            "compression_quality": 100,
+            "frame_rate": 24
+        },
+        "anti_aliasing": {
+            "override_antialiasing": true,
+            "antialiasing_method": "TemporalAA",
+            "temporal_sample_count": 8,
+            "spatial_sample_count": 1,
+            "render_warm_up_count": 32,
+            "engine_warm_up_count": 0
+        },
+        "camera": {
+            "motion_blur": true,
+            "shutter_angle": 180.0
+        },
+        "console_variables": [
+            {
+                "name": "r.TemporalAA.Upsampling",
+                "value": "1"
+            },
+            {
+                "name": "r.TemporalAASamples",
+                "value": "8"
+            },
+            {
+                "name": "r.PostProcessAAQuality",
+                "value": "6"
+            },
+            {
+                "name": "r.MotionBlurQuality",
+                "value": "4"
+            },
+            {
+                "name": "r.DepthOfFieldQuality",
+                "value": "3"
+            },
+            {
+                "name": "r.ScreenPercentage",
+                "value": "100"
+            },
+            {
+                "name": "r.SSR.Quality",
+                "value": "4"
+            },
+            {
+                "name": "r.SSS.Scale",
+                "value": "1"
+            },
+            {
+                "name": "r.SSS.SampleSet",
+                "value": "2"
+            },
+            {
+                "name": "r.VolumetricFog",
+                "value": "1"
+            },
+            {
+                "name": "r.VolumetricFog.GridPixelSize",
+                "value": "4"
+            },
+            {
+                "name": "r.VolumetricFog.GridSizeZ",
+                "value": "64"
+            }
+        ]
+    }
+}
